@@ -14,8 +14,28 @@ const projects = [
     image: "/projects/carmotive-hero.png",
     liveUrl: "https://carmotiveindia.com/",
   },
+  
+ {
+  number: "02",
+  title: "RateMyStore",
+  category: "Full-Stack Application",
+  year: "2026",
+  description:
+    "A full-stack store rating and management platform built with React, Express.js, and PostgreSQL.",
+  technologies: [
+    "React",
+    "Vite",
+    "Node.js",
+    "Express.js",
+    "PostgreSQL",
+  ],
+  image: "/projects/ratemystore.png",
+  secondaryImage: "/projects/ratemystore.png",
+  accent: "lime",
+  liveUrl: "https://rate-my-store-frontend-delta.vercel.app/",
+},
   {
-    number: "02",
+    number: "03",
     title: "MAGVEL Capital",
     category: "Financial Services",
     description:
@@ -25,7 +45,7 @@ const projects = [
     liveUrl: "https://magvelcapital.in/",
   },
   {
-    number: "03",
+    number: "04",
     title: "Verkoper",
     category: "Real Estate",
     description:
